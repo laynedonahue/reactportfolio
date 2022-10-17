@@ -4,13 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+export default function Navbar1() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
             <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
@@ -23,6 +22,3 @@ function Navbar() {
   );
 }
 
-
-
-export default function Navbar() {}
