@@ -32,6 +32,15 @@
   margin: 0px;
 }
 
+.contact {
+  flex-direction: column;
+}
+
+.btn--outline {
+  padding: 0px;
+  margin: 0px;
+}
+
 
 @keyframes App-logo-spin {
   from {

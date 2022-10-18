@@ -6,6 +6,13 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 import '.././App.css'
 
+
+const contact = {
+  email: 'chadndonahue@gmail.com'
+}
+
+
+
 export default function Contact() {
     
   return (
@@ -18,7 +25,13 @@ export default function Contact() {
          The simplest way to contact me would be through email or phone.
         </Card.Text>
         <ListGroup variant="flush">
-        <ListGroup.Item>Email: chadndonahue@gmail.com</ListGroup.Item>
+        <ListGroup.Item>
+        <a href={`mailto:${contact.email}`}>
+        <span type='button' className='btn btn--outline'>
+          Email me
+        </span>
+        </a>
+        </ListGroup.Item>
         <ListGroup.Item>Phone: (518)572-2973</ListGroup.Item>
       </ListGroup>
       </Card.Body>
@@ -27,4 +40,5 @@ export default function Contact() {
     </>
   );
 }
+
 
