@@ -5,7 +5,7 @@ import '../App.css'
 export default function About() {
     return (
 <>
-<div class ="jumbotron">
+<div className= "jumbotron">
   <h1>Hello, thank you for viewing my portfolio.</h1>
   <p>
     My name is Layne Donahue, I am a full stack web developer from Upstate New York.  Recently, I made the move to Los Angeles in search of better opportunities for work.
