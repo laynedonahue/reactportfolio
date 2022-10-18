@@ -14,7 +14,6 @@ export default function Navbar1() {
             <Nav.Link href="#Contact">Contact</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
             <Nav.Link href="#Skills">Skills</Nav.Link>
-            <Nav.Link href="#Testimonials">Testimonials</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
