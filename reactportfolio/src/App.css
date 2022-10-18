@@ -49,10 +49,33 @@
 
 }
 
+.projectsBorder {
+  border-width: 5px;
+  border-style: solid;
+  border-color: cyan;
+}
+
+#About {
+  text-align: center;
+}
+
+#underline a {
+  text-decoration: none;
+}
+
+#heroImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
 img {
     width:  500px;
     height: 500px;
     object-fit: cover;
+    padding-top: 10px;
 }
 
 @keyframes App-logo-spin {
@@ -61,5 +84,18 @@ img {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  img {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
   }
 }

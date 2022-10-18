@@ -1,7 +1,3 @@
-// import image1 from '../public/images/project1.jpg'
-// import image2 from '../public/images/project2.jpg'
-// import image3 from '../public/images/project3.jpg'
-
 export const projects = [
     {
       title: "Skate4Paradise",
