@@ -3,7 +3,7 @@ import { ListGroup } from "react-bootstrap";
 
 export default function Skills() {
     return (
-        <ListGroup className="align-items-center">
+        <ListGroup className="align-items-center" id='Skills'>
           <ListGroup.Item>JavaScript</ListGroup.Item>
           <ListGroup.Item>React.JS</ListGroup.Item>
           <ListGroup.Item>Node</ListGroup.Item>

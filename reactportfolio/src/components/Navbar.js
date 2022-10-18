@@ -11,9 +11,9 @@ export default function Navbar1() {
         <Container>
           <Nav className="mx-auto">
             <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
             <Nav.Link href="#Skills">Skills</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

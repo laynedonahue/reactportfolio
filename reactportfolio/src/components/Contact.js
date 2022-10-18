@@ -17,7 +17,7 @@ export default function Contact() {
     
   return (
     <>
-    <Row className="justify-content-center">
+    <Row className="justify-content-center" id='Contact'>
     <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>Contact Info</Card.Title>
