@@ -1,8 +1,11 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
+import '../App.css'
 
 export default function Skills() {
     return (
+      <div container>
+        <h1>My Skills</h1>
         <ListGroup className="align-items-center" id='Skills'>
           <ListGroup.Item>JavaScript</ListGroup.Item>
           <ListGroup.Item>React.JS</ListGroup.Item>
@@ -11,5 +14,6 @@ export default function Skills() {
           <ListGroup.Item>Bootstrap</ListGroup.Item>
         
         </ListGroup>
+        </div>
     )
 }

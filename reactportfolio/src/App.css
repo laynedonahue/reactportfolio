@@ -78,14 +78,10 @@ img {
     padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
 }
+
 
 @media screen and (max-width: 992px) {
   img {
@@ -93,9 +89,21 @@ img {
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   img {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .containerProjects {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerProjects {
+    width: 100%;
+  }
+}
+
