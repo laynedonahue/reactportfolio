@@ -55,6 +55,13 @@
   border-color: cyan;
 }
 
+
+
+.aboutTxt {
+  margin-top: 20px;
+}
+
+
 #About {
   text-align: center;
 }
@@ -85,9 +92,10 @@ h1 {
 
 @media screen and (max-width: 992px) {
   img {
-    width: 50%;
+    width: 75%;
   }
 }
+
 
 @media screen and (max-width: 600px) {
   img {
@@ -97,13 +105,21 @@ h1 {
 
 @media screen and (max-width: 992px) {
   .containerProjects {
-    width: 50%;
+    width: 75%;
+  }
+  #heroImg {
+    width:50%
   }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .containerProjects {
     width: 100%;
+  }
+  #heroImg {
+    width:0%
   }
 }
 
