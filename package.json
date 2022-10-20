@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chadndonahue.github.io/reactportfolio/",
+  "homepage": "https://chadndonahue.github.io/reactportfolio/public/",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
