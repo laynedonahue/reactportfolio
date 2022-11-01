@@ -12,7 +12,6 @@ export default function Skills() {
           <ListGroup.Item>Node</ListGroup.Item>
           <ListGroup.Item>MySQL</ListGroup.Item>
           <ListGroup.Item>Bootstrap</ListGroup.Item>
-        
         </ListGroup>
         </div>
     )

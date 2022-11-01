@@ -16,12 +16,12 @@ export const projects = [
       link: "https://madavilajr.github.io/ProjectAPIs/",
     },
     {
-      title: "ReadMe Generator",
-      subtitle: "ReadMe Gen",
+      title: "FlappyBird",
+      subtitle: "FlappyBird Clone",
       description:
-        "This is an application that will create a readme file for you through the use of inquirer.",
-      image: '/images/project3.png',
-      link: "https://github.com/chadndonahue/readmegenerator",
+        "This is a simple game made with javascript.  The goal is to make it through the obstacles without colliding with them to see how high a score you can get",
+      image: '/images/project11.png',
+      link: "https://laynedonahue.github.io/flappybirdclone/",
     },
   ];
 
