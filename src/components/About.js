@@ -8,7 +8,7 @@ export default function About() {
 <>
 <div className= "jumbotron" id='About'>
   <h1>Hello, welcome!</h1>
-  <img src={process.env.PUBLIC_URL + "/images/hero.png"} id='heroImg'></img>
+  {/* <img src={process.env.PUBLIC_URL + "/images/hero.png"} id='heroImg'></img> */}
     <Container>
       <p className="aboutTxt">
         My name is Layne Donahue, I am a full stack web developer from Upstate New York.  Recently, I made the move to Los Angeles in search of better opportunities for work.

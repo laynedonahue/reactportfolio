@@ -7,7 +7,7 @@ export default function Skills() {
     return (
       <div container>
         <h1>My Skills</h1>
-        <ListGroup className="align-items-center" id='Skills'>
+        <ListGroup className="list-group-horizontal justify-content-center" id='Skills'>
           <ListGroup.Item>JavaScript</ListGroup.Item>
           <ListGroup.Item>React.JS</ListGroup.Item>
           <ListGroup.Item>Node</ListGroup.Item>

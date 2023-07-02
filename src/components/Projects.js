@@ -6,14 +6,16 @@ import '../App.css'
 export default function Projects() {
     return (
       <section id="Projects" className="text-gray-400 bg-gray-900 body-font">
-        <div className="container containerProjects px-5 py-10 mx-auto text-center lg:px-40">
-          <div className="flex flex-col w-full mb-20">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
+             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black" id="AppsHeader">
               Apps
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center font-weight-normal" id="AppsInfo">
               These are a few applications I have built in the past.
             </p>
+            </h1>
+
+        <div className="container containerProjects px-5 py-10 mx-auto text-center lg:px-40">
+          <div className="flex flex-col w-full mb-20" >
+
           </div>
           <div className="flex flex-wrap -m-4" id='underline'>
             {projects.map((project) => (
